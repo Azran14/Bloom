@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+	background-color: rgb(46, 193, 172);
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+  .header__icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .header__icon--details {
+      display: flex;
+      justify-content: center;
+      margin-left: 15px;
+      padding: 5px;
+      width: 120px;
+    }
+    .header__icon--details:hover {
+      opacity: 100%;
+      background-color: hsla(0,0%,100%,.1);
+      border-radius: 3px;
+    }
+    img {
+      width: 100px;
+    }
+  }
+  .header__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    .header__items {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+      .header__item {
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        margin: 0 7px;
+        color: white;
+        opacity: 70%;
+        font-size: 11px;
+        height: 25px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .header__item:hover {
+        opacity: 100%;
+        background-color: hsla(0,0%,100%,.1);
+        width: 60px;
+        border-radius: 3px;
+      }
+      .header__button {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        
+        .header__button--one {
+          background-color: black;
+          margin-left: 20px;
+          border: none;
+          border-radius: 3px;
+          color: white;
+          font-size: 10px;
+          font-weight: bold;
+          width: 100px;
+          height: 25px;
+          cursor: pointer;
+          font-size: 10px;
+        }
+        .header__button--one:hover {
+          background-color: white;
+          border: black 1px solid;
+          color: black;
+        }
+        .header__button--two {
+          background-color: #1f5dd3;
+          margin-left: 5px;
+          border: none;
+          border-radius: 3px;
+          color: white;
+          font-size: 10px;
+          font-weight: bold;
+          width: 100px;
+          height: 25px;
+          cursor: pointer;
+          font-size: 10px;
+        }
+        .header__button--two:hover {
+          background-color: white;
+          border: black 1px solid;
+          color: #1f5dd3;
+        }
+      }
+    }
+  }
+}
+
