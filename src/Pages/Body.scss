@@ -207,6 +207,18 @@
 	}
 }
 
+@media screen and (min-width: 768px) and (max-width: 976px) {
+	.body__content:last-of-type {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.body__content {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
 	.body__content {
 		justify-content: center;
