@@ -1,9 +1,9 @@
 .footer {
-	display: flex;
 	background-color: #16211f;
 	width: 100%;
-	margin: 0 auto;
 	height: 200px;
+	max-width: 100%;
+	bottom: 0px;
 	.footer__content {
 		display: flex;
 		padding: 50px;
@@ -26,6 +26,15 @@
 			color:rgb(46, 193, 172);
 			text-decoration: underline;
 			cursor: pointer;
+		}
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+	.footer__items {
+		font-size: 8px !important;
+		.footer__item--title {
+			font-size: 10px !important;
 		}
 	}
 }
